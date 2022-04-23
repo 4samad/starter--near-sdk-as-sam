@@ -2,9 +2,9 @@ import { storage, Context } from "near-sdk-core"
 
 @nearBindgen
 export class Contract {
-  private message: string = 'hello world'
+  private message: string = 'Hey world, this is Sam contract!'
 
-  // return the string 'hello world'
+  // return the string 'Hey world, this is Sam contract!'
   helloWorld(): string {
     return this.message
   }
