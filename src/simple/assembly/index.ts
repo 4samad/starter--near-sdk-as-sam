@@ -1,6 +1,6 @@
 import { storage, Context } from "near-sdk-as"
 
-// return the string 'hello world'
+// return the string 'Hey world, this is Sam contract!'
 export function helloWorld(): string {
   return 'Hey world, this is Sam contract!'
 }
